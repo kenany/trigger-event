@@ -1,6 +1,6 @@
 {
   "name": "trigger-event",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Programmatically trigger a DOM event",
   "keywords": [
     "browser",
