@@ -21,7 +21,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "browserify test/*.js | testling"
+    "test": "browserify test/*.js | testling -x chromium"
   },
   "dependencies": {
     "create-event": "^1.0.0",
