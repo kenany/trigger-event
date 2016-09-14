@@ -1,4 +1,5 @@
 var createEvent = require('create-event');
+var document = require('global/document');
 var isString = require('lodash.isstring');
 
 /**

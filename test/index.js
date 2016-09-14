@@ -1,6 +1,7 @@
 var triggerEvent = require('../');
 var test = require('tape');
 var bind = require('component-event').bind;
+var document = require('global/document');
 
 test('triggers a click event', function(t) {
   t.plan(1);
