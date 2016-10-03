@@ -33,7 +33,7 @@
     "@kenan/eslint-config": "^3.0.0",
     "browserify": "^13.1.0",
     "component-event": "^0.2.0",
-    "eslint": "^3.5.0",
+    "eslint": "^3.7.1",
     "tape": "^4.6.0",
     "testling": "^1.6.1"
   }
