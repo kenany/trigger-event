@@ -22,7 +22,7 @@
   },
   "scripts": {
     "pretest": "eslint index.js test/index.js",
-    "test": "browserify test/*.js | testling -x chromium"
+    "test": "browserify test/*.js | testling -x firefox"
   },
   "dependencies": {
     "create-event": "^1.0.0",
