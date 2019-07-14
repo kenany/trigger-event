@@ -10,7 +10,7 @@ test('triggers a click event', function(t) {
   bind(el, 'click', function(e) {
     t.ok(e.ctrlKey);
   });
-  triggerEvent(el, 'click', {ctrl: true});
+  triggerEvent(el, 'click', { ctrl: true });
 });
 
 test('triggers a dblclick event', function(t) {
@@ -20,7 +20,7 @@ test('triggers a dblclick event', function(t) {
   bind(el, 'dblclick', function(e) {
     t.ok(e.ctrlKey);
   });
-  triggerEvent(el, 'dblclick', {ctrl: true});
+  triggerEvent(el, 'dblclick', { ctrl: true });
 });
 
 test('triggers a keydown event', function(t) {
@@ -30,7 +30,7 @@ test('triggers a keydown event', function(t) {
   bind(el, 'keydown', function(e) {
     t.equal(e.keyCode, 27);
   });
-  triggerEvent(el, 'keydown', {key: 'esc'});
+  triggerEvent(el, 'keydown', { key: 'esc' });
 });
 
 test('triggers a keyup event', function(t) {
@@ -40,5 +40,5 @@ test('triggers a keyup event', function(t) {
   bind(el, 'keyup', function(e) {
     t.equal(e.keyCode, 27);
   });
-  triggerEvent(el, 'keyup', {key: 'esc'});
+  triggerEvent(el, 'keyup', { key: 'esc' });
 });
