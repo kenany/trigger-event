@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@kenan/eslint-config": "6.0.0",
-    "browserify": "16.3.0",
+    "browserify": "16.4.0",
     "component-event": "^0.2.0",
     "eslint": "5.16.0",
     "tape": "^4.6.0",
