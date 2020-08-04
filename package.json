@@ -31,11 +31,11 @@
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "7.0.0",
+    "@kenan/eslint-config": "^8.0.0",
     "@kenan/renovate-config": "1.1.1",
     "browserify": "16.5.1",
     "component-event": "0.2.0",
-    "eslint": "6.8.0",
+    "eslint": "^7.6.0",
     "tape": "5.0.0",
     "testling": "1.7.3"
   }
