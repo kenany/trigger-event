@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@kenan/eslint-config": "^8.0.0",
-    "@kenan/renovate-config": "1.1.1",
+    "@kenan/renovate-config": "^1.4.0",
     "browserify": "16.5.1",
     "component-event": "0.2.0",
     "eslint": "^7.6.0",
