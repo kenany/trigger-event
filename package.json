@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "create-event": "^1.0.13",
-    "global": "^4.3.0",
+    "global": "^4.4.0",
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
