@@ -23,6 +23,6 @@ jobs:
         useLockFile: false
     - run: npm ls
     - name: Test
-      uses: gabrielbb/xvfb-action@v1.4
+      uses: gabrielbb/xvfb-action@v1.5
       with:
         run: npm test
