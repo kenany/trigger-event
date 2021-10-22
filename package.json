@@ -35,7 +35,7 @@
     "@kenan/renovate-config": "^1.5.1",
     "browserify": "^17.0.0",
     "component-event": "^0.2.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "tape": "^5.3.1",
     "tape-run": "^9.0.0"
   }
