@@ -36,7 +36,7 @@
     "browserify": "^17.0.0",
     "component-event": "^0.2.0",
     "eslint": "^7.32.0",
-    "tape": "^5.3.1",
+    "tape": "^5.3.2",
     "tape-run": "^9.0.0"
   }
 }
