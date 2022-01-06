@@ -1,3 +1,10 @@
+### [1.0.5](https://github.com/KenanY/trigger-event/compare/1.0.4...1.0.5) (2022-01-06)
+
+
+### Bug Fixes
+
+* **deps:** create-event@1.0.14 ([aa56a01](https://github.com/KenanY/trigger-event/commit/aa56a01883d2439627d57dbe550a4535de57bcbe))
+
 ### [1.0.4](https://github.com/KenanY/trigger-event/compare/1.0.3...1.0.4) (2022-01-06)
 
 
