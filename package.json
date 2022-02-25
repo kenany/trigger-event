@@ -38,7 +38,7 @@
     "browserify": "^17.0.0",
     "component-event": "^0.2.0",
     "conventional-changelog-conventionalcommits": "^4.6.3",
-    "eslint": "^7.32.0",
+    "eslint": "^8.10.0",
     "semantic-release": "^18.0.1",
     "tape": "^5.4.0",
     "tape-run": "^9.0.0"
