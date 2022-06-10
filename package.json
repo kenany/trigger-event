@@ -41,6 +41,6 @@
     "eslint": "^7.32.0",
     "semantic-release": "^19.0.2",
     "tape": "^5.5.3",
-    "tape-run": "^9.0.0"
+    "tape-run": "^10.0.0"
   }
 }
