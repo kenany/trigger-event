@@ -7,6 +7,7 @@ jobs:
       matrix:
         node-version: [18]
         os: [ubuntu-latest]
+    timeout-minutes: 2
     steps:
     - name: Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.6.0
@@ -18,11 +19,9 @@ jobs:
         npm --version
     - uses: actions/checkout@v3.3.0
     - name: Install dependencies
-      uses: bahmutov/npm-install@v1.8.28
+      uses: bahmutov/npm-install@v1.8.29
       with:
         useLockFile: false
     - run: npm ls
     - name: Test
-      uses: gabrielbb/xvfb-action@v1.6
-      with:
-        run: npm test
+      run: xvfb-run -a npm test
