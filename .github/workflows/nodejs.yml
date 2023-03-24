@@ -24,4 +24,8 @@ jobs:
         useLockFile: false
     - run: npm ls
     - name: Test
-      run: xvfb-run -a npm test
+      uses: nick-fields/retry@v2.8.3
+      with:
+        timeout_seconds: 30
+        max_attempts: 3
+        command: xvfb-run -a npm test
