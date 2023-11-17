@@ -1,5 +1,17 @@
 name: nodejs
-on: [pull_request, push]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+  merge_group:
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ${{ matrix.os }}
@@ -7,7 +19,7 @@ jobs:
       matrix:
         node-version: [18]
         os: [ubuntu-latest]
-    timeout-minutes: 2
+    timeout-minutes: 20
     steps:
     - name: Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4.0.0
