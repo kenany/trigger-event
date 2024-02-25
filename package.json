@@ -39,7 +39,7 @@
     "component-event": "^0.2.1",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "^8.56.0",
-    "semantic-release": "^23.0.0",
+    "semantic-release": "^23.0.2",
     "tape": "^5.7.5",
     "tape-run": "^11.0.0"
   }
