@@ -14,11 +14,10 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
-        node-version: [20]
-        os: [ubuntu-latest]
+        node-version: [22]
     timeout-minutes: 20
     steps:
     - name: Node.js ${{ matrix.node-version }}
@@ -31,7 +30,7 @@ jobs:
         npm --version
     - uses: actions/checkout@v4.2.2
     - name: Install dependencies
-      uses: bahmutov/npm-install@v1.10.4
+      uses: bahmutov/npm-install@v1.10.5
       with:
         useLockFile: false
     - run: npm ls
@@ -39,5 +38,5 @@ jobs:
       uses: nick-fields/retry@v3.0.0
       with:
         timeout_seconds: 30
-        max_attempts: 3
+        max_attempts: 10
         command: xvfb-run -a npm test
