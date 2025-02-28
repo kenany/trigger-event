@@ -35,7 +35,7 @@ jobs:
         useLockFile: false
     - run: npm ls
     - name: Test
-      uses: nick-fields/retry@v3.0.1
+      uses: nick-fields/retry@v3.0.2
       with:
         timeout_seconds: 30
         max_attempts: 10
