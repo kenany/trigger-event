@@ -1,6 +1,6 @@
-var createEvent = require('create-event');
-var document = require('global/document');
-var isString = require('lodash.isstring');
+const createEvent = require('create-event');
+const document = require('global/document');
+const isString = require('lodash.isstring');
 
 /**
  * Trigger an event of `type` on an `el` with `options`.
@@ -16,11 +16,9 @@ function triggerEvent(el, type, options) {
     el = document;
   }
 
-  var e = createEvent(type, options);
+  const e = createEvent(type, options);
 
-  el.dispatchEvent
-    ? el.dispatchEvent(e)
-    : el.fireEvent('on' + type, e);
+  el.dispatchEvent ? el.dispatchEvent(e) : el.fireEvent(`on${type}`, e);
 }
 
 module.exports = triggerEvent;

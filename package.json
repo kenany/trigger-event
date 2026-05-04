@@ -9,7 +9,10 @@
     "event",
     "trigger"
   ],
-  "repository": "KenanY/trigger-event",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenanY/trigger-event.git"
+  },
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
@@ -21,9 +24,8 @@
     "test": "test"
   },
   "scripts": {
-    "lint": "eslint index.js test/index.js",
+    "lint": "biome check .",
     "test": "browserify test/*.js | tape-run",
-    "posttest": "npm run lint",
     "release": "semantic-release"
   },
   "dependencies": {
@@ -32,13 +34,12 @@
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "10.0.2",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
+    "@biomejs/biome": "2.4.14",
+    "@containerbase/semantic-release-pnpm": "1.4.1",
+    "@kenan/biome-config": "1.0.6",
     "browserify": "17.0.1",
     "component-event": "0.2.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
-    "eslint": "8.57.1",
     "semantic-release": "25.0.3",
     "tape": "5.9.0",
     "tape-run": "11.0.0"

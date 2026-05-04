@@ -1,44 +1,44 @@
-var test = require('tape');
-var bind = require('component-event').bind;
-var document = require('global/document');
+const test = require('tape');
+const bind = require('component-event').bind;
+const document = require('global/document');
 
-var triggerEvent = require('../');
+const triggerEvent = require('../');
 
-test('triggers a click event', function(t) {
+test('triggers a click event', (t) => {
   t.plan(1);
-  var el = document.createElement('div');
+  const el = document.createElement('div');
 
-  bind(el, 'click', function(e) {
+  bind(el, 'click', (e) => {
     t.ok(e.ctrlKey);
   });
   triggerEvent(el, 'click', { ctrl: true });
 });
 
-test('triggers a dblclick event', function(t) {
+test('triggers a dblclick event', (t) => {
   t.plan(1);
-  var el = document.createElement('div');
+  const el = document.createElement('div');
 
-  bind(el, 'dblclick', function(e) {
+  bind(el, 'dblclick', (e) => {
     t.ok(e.ctrlKey);
   });
   triggerEvent(el, 'dblclick', { ctrl: true });
 });
 
-test('triggers a keydown event', function(t) {
+test('triggers a keydown event', (t) => {
   t.plan(1);
-  var el = document.createElement('div');
+  const el = document.createElement('div');
 
-  bind(el, 'keydown', function(e) {
+  bind(el, 'keydown', (e) => {
     t.equal(e.keyCode, 27);
   });
   triggerEvent(el, 'keydown', { key: 'esc' });
 });
 
-test('triggers a keyup event', function(t) {
+test('triggers a keyup event', (t) => {
   t.plan(1);
-  var el = document.createElement('div');
+  const el = document.createElement('div');
 
-  bind(el, 'keyup', function(e) {
+  bind(el, 'keyup', (e) => {
     t.equal(e.keyCode, 27);
   });
   triggerEvent(el, 'keyup', { key: 'esc' });
