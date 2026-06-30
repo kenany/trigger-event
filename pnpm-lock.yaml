@@ -34,8 +34,8 @@ importers:
         specifier: 0.2.1
         version: 0.2.1
       conventional-changelog-conventionalcommits:
-        specifier: 9.3.1
-        version: 9.3.1
+        specifier: 10.2.0
+        version: 10.2.0
       semantic-release:
         specifier: 25.0.5
         version: 25.0.5
@@ -134,6 +134,10 @@ packages:
     engines: {node: ^22.11.0 || ^24}
     peerDependencies:
       semantic-release: ^24.0.0 || ^25.0.0
+
+  '@conventional-changelog/template@1.2.0':
+    resolution: {integrity: sha512-12qHxvlKjHmP0PQ+17EREgC7lWyLwbph1RKcZQZ7k7ZWGmrxfxC9gadHGfvzr0g0u8BhiBGg3tks93txodlyRQ==}
+    engines: {node: '>=22'}
 
   '@electron/get@2.0.3':
     resolution: {integrity: sha512-Qkzpg2s9GnVV2I2BjRksUi43U5e6+zaQMcjoJy0C+C5oxaKl+fmckGDQFtRpZpZV0NQekuZZ+tGz7EA9TVnQtQ==}
@@ -608,9 +612,9 @@ packages:
     resolution: {integrity: sha512-6gfI3otXK5Ph5DfCOI1dblr+kN3FAm5a97hYoQkqNZxOaYa5WKfXH+AnpsmS+iUH2mgVC2Cg2Qw9m5OKcmNrIg==}
     engines: {node: '>=18'}
 
-  conventional-changelog-conventionalcommits@9.3.1:
-    resolution: {integrity: sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw==}
-    engines: {node: '>=18'}
+  conventional-changelog-conventionalcommits@10.2.0:
+    resolution: {integrity: sha512-UtlM9GqolY7OmlQh5L/UEVoKsTUpTgUVy1PU8JN5gl5Ydaejb7WRklGliG1SKPxxj7hzA173eG3Kt5fYWE2pmg==}
+    engines: {node: '>=22'}
 
   conventional-changelog-writer@8.4.0:
     resolution: {integrity: sha512-HHBFkk1EECxxmCi4CTu091iuDpQv5/OavuCUAuZmrkWpmYfyD816nom1CvtfXJ/uYfAAjavgHvXHX291tSLK8g==}
@@ -2677,6 +2681,8 @@ snapshots:
       semantic-release: 25.0.5
       semver: 7.8.3
 
+  '@conventional-changelog/template@1.2.0': {}
+
   '@electron/get@2.0.3':
     dependencies:
       debug: 4.4.3
@@ -3325,9 +3331,9 @@ snapshots:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-conventionalcommits@9.3.1:
+  conventional-changelog-conventionalcommits@10.2.0:
     dependencies:
-      compare-func: 2.0.0
+      '@conventional-changelog/template': 1.2.0
 
   conventional-changelog-writer@8.4.0:
     dependencies:
