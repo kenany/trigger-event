@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.8",
-    "@containerbase/semantic-release-pnpm": "1.4.2",
+    "@containerbase/semantic-release-pnpm": "1.4.3",
     "@kenan/biome-config": "1.0.6",
     "browserify": "17.0.1",
     "component-event": "0.2.1",
