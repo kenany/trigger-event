@@ -40,8 +40,8 @@ importers:
         specifier: 25.0.9
         version: 25.0.9(supports-color@7.2.0)
       tape:
-        specifier: 5.10.2
-        version: 5.10.2
+        specifier: 5.10.3
+        version: 5.10.3
       tape-run:
         specifier: 11.0.0
         version: 11.0.0(supports-color@7.2.0)
@@ -2315,8 +2315,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  tape@5.10.2:
-    resolution: {integrity: sha512-MfhVVAWa834kfYL4KgrqHblWfwkjaQvfaQhAX/bBTNQsK8oJ4ztpUe7jiemR2Vegw4pYwpnQMy51MhEmRzbbsg==}
+  tape@5.10.3:
+    resolution: {integrity: sha512-p+WLISY4ewSacY6yKWxlT6EY+iutUX2magjOlIx29LhmU08yDjWnZ7n7jBQSS8tsWYFuGW1asj3LUwkK1wW9LQ==}
     hasBin: true
 
   temp-dir@1.0.0:
@@ -5304,7 +5304,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  tape@5.10.2:
+  tape@5.10.3:
     dependencies:
       '@ljharb/now': 1.0.1
       '@ljharb/resumer': 0.1.3
