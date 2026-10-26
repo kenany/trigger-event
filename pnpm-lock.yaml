@@ -1721,8 +1721,8 @@ packages:
     resolution: {integrity: sha512-8u/hfXFRBD1O0hPUjioLhoWFHRmt6tKA4/vZPyckBr18l1KE9uHrFaFaUi8MDRTpi4uak2goyPTSNJLXX2k2Hw==}
     engines: {node: '>= 0.4'}
 
-  on-finished@2.4.1:
-    resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
+  on-finished@2.4.2:
+    resolution: {integrity: sha512-ATWUv387i+nLD49EiDoOft5scf32Vsdz3ktrQJG9bi7jRFmaXTssvyvj1EmeKVVgvesbqUtvQQvaS2TpTukAZQ==}
     engines: {node: '>= 0.8'}
 
   once@1.4.0:
@@ -1792,8 +1792,8 @@ packages:
   parents@1.0.1:
     resolution: {integrity: sha512-mXKF3xkoUt5td2DoxpLmtOmZvko9VfFpwRwkKDHSNvgmpLAeBo18YDhcPbBzJq+QLCHMbGOfzia2cX4U+0v9Mg==}
 
-  parse-asn1@5.1.9:
-    resolution: {integrity: sha512-fIYNuZ/HastSb80baGOuPRo1O9cf4baWw5WsAp7dBuUzeTD/BoaG8sVTdlPFksBE2lF21dN+A1AnrpIjSWqHHg==}
+  parse-asn1@5.1.10:
+    resolution: {integrity: sha512-gBlTKLbYnAJN9WjmawVOMfaGvVoy4lX0LH18t7ccwtEG9RgAa4ETf2eu3d2J4e/5SoCjCms0A0UF4tTw/Eyn6Q==}
     engines: {node: '>= 0.10'}
 
   parse-json@4.0.0:
@@ -2502,8 +2502,8 @@ packages:
   url-join@4.0.1:
     resolution: {integrity: sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==}
 
-  url-join@5.1.1:
-    resolution: {integrity: sha512-5+M4YX5pEFeXSdMyt3J5iXr949UC+j6yHRkZUEv6ljTusAfdCdS4pSTudnYGzYEbKkdK5xIE0E3i5xzIzoiFrQ==}
+  url-join@5.2.0:
+    resolution: {integrity: sha512-/tMVQdp/2eE90fGb6npbd2nLHH8jamzLLeZhLEKTz4Rc38wO5AeEuIhoWroWWfQJS50ZzL4Xod9JER/pJWTTEQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   url@0.11.4:
@@ -2846,7 +2846,7 @@ snapshots:
       semantic-release: 25.0.9(supports-color@7.2.0)
       tinyglobby: 0.2.17
       undici: 7.30.1
-      url-join: 5.1.1
+      url-join: 5.2.0
     transitivePeerDependencies:
       - kerberos
       - supports-color
@@ -3121,7 +3121,7 @@ snapshots:
       create-hmac: 1.1.7
       elliptic: 6.6.1
       inherits: 2.0.4
-      parse-asn1: 5.1.9
+      parse-asn1: 5.1.10
       readable-stream: 2.3.8
       safe-buffer: 5.2.1
 
@@ -3579,7 +3579,7 @@ snapshots:
       he: 1.2.0
       mime: 2.6.0
       minimist: 1.2.8
-      on-finished: 2.4.1
+      on-finished: 2.4.2
       url-join: 4.0.1
 
   ee-first@1.1.1: {}
@@ -4595,7 +4595,7 @@ snapshots:
       define-properties: 1.2.1
       es-object-atoms: 1.1.2
 
-  on-finished@2.4.1:
+  on-finished@2.4.2:
     dependencies:
       ee-first: 1.1.1
 
@@ -4656,7 +4656,7 @@ snapshots:
     dependencies:
       path-platform: 0.11.15
 
-  parse-asn1@5.1.9:
+  parse-asn1@5.1.10:
     dependencies:
       asn1.js: 4.10.1
       browserify-aes: 1.2.0
@@ -4765,7 +4765,7 @@ snapshots:
       bn.js: 4.12.5
       browserify-rsa: 4.1.1
       create-hash: 1.2.0
-      parse-asn1: 5.1.9
+      parse-asn1: 5.1.10
       randombytes: 2.1.0
       safe-buffer: 5.2.1
 
@@ -5521,7 +5521,7 @@ snapshots:
 
   url-join@4.0.1: {}
 
-  url-join@5.1.1: {}
+  url-join@5.2.0: {}
 
   url@0.11.4:
     dependencies:
