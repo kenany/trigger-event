@@ -34,7 +34,7 @@
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
+    "@biomejs/biome": "2.6.3",
     "@containerbase/semantic-release-pnpm": "1.4.3",
     "@kenan/biome-config": "1.2.0",
     "browserify": "17.0.1",
