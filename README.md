@@ -8,22 +8,22 @@ for npm+browserify support.
 
 ## Example
 
-``` javascript
+```javascript
 var triggerEvent = require('trigger-event');
 
-triggerEvent(document, 'keydown', {key: 'enter'});
-triggerEvent('keydown', {key: 'enter'})
+triggerEvent(document, 'keydown', { key: 'enter' });
+triggerEvent('keydown', { key: 'enter' });
 ```
 
 ## Installation
 
-``` bash
+```bash
 $ npm install trigger-event
 ```
 
 ## API
 
-``` javascript
+```javascript
 var triggerEvent = require('trigger-event');
 ```
 
@@ -31,16 +31,16 @@ var triggerEvent = require('trigger-event');
 
 Programmatically triggers a DOM event of `type`:
 
-  - `'click'`
-  - `'dblclick'`
-  - `'keydown'`
-  - `'keyup'`
+- `'click'`
+- `'dblclick'`
+- `'keydown'`
+- `'keyup'`
 
 `document` is used if `element` is not provided.
 
 Default `options`:
 
-``` javascript
+```javascript
 {
   alt: false,
   bubbles: true,
