@@ -40,7 +40,7 @@
     "browserify": "17.0.1",
     "component-event": "0.2.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
-    "semantic-release": "25.0.9",
+    "semantic-release": "26.0.1",
     "tape": "5.10.3",
     "tape-run": "11.0.0"
   }
